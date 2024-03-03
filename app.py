@@ -8,6 +8,7 @@ app.secret_key = 'aica2'
 
 @app.route('/')
 def index():
+    
     return render_template('index.html')
 
 @app.route('/test_generate', methods=["POST"])
