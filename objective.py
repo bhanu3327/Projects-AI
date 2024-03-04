@@ -2,7 +2,7 @@ import re
 import nltk
 import numpy as np
 from nltk.corpus import wordnet as wn
-nltk.download('averaged_perceptron_tagger')
+nltk.download('all')
 
 class ObjectiveTest:
 
